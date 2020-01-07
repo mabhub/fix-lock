@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Fill missing path for packages without resolved one",
   "main": "index.js",
+  "bin": {
+    "fix-lock": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
